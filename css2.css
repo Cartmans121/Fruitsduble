@@ -1,0 +1,402 @@
+/* Base */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #222;
+    font-style: normal;
+    z-index: auto;
+    list-style-type: none;
+
+
+    transition: .3s;
+}
+
+ul li ol{
+    list-style: none;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background: #fff;
+    width: 100%;
+    font-family: "open sans";    
+    font-size: 16px;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*header*/ 
+
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.menu-st {
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 40px;
+}
+
+.regestr {
+    background: #09A66D;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.color-reg {
+    color: #fff;
+}
+
+.organic-title {
+    font-size: 70px;
+    color: #222;
+    margin-bottom: 20px;
+    padding-top: 1em;
+}
+
+.organic-title2 {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.organic-fruit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fruits-img {
+    position: relative;
+    top: 5em;
+    width: 54%;
+    margin-bottom: 9em;
+}
+
+.order {
+    font-weight: bold;
+    font-size: 18px;
+    background: #09A66D;
+    padding: 15px;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.fruits-imglist {
+    position: absolute;
+    right: 80em;
+    bottom: 27em;
+    z-index: 1;
+}
+
+.column-title {
+    color: black;
+}
+
+.img-fone, .explore, .footer{
+
+    background: #F3FBF8;
+    /* z-index: -999; */
+}
+
+.column-menu {
+    border-radius: 45px;
+    position: absolute;
+    color: #fff;
+    background: #fff;
+    justify-content: space-around;
+    margin-top: -33em;
+    margin-left: 55em;
+    width: 17%;
+    display: flex;
+    align-items: center;
+}
+
+.column-menu2 {
+    position: absolute;
+}
+.column-title {
+    text-align: center;
+    color: black;
+    font-size: 48px;
+}
+
+.user {
+    font-size: 18px;
+}
+
+.column-menu2 {
+    border-radius: 45px;
+    position: absolute;
+    color: #fff;
+    background: #fff;
+    justify-content: space-around;
+    margin-top: -24em;
+    margin-left: 55em;
+    width: 17%;
+    display: flex;
+    align-items: center;
+}
+
+.column-menu3 {
+    border-radius: 45px;
+    position: absolute;
+    color: #fff;
+    background: #fff;
+    justify-content: space-around;
+    margin-top: -15em;
+    margin-left: 55em;
+    width: 17%;
+    display: flex;
+    align-items: center;
+}
+
+.planeta {
+    margin-right: 10em;
+    background-repeat: no-repeat; /* Не повторяем */
+    background-size: cover; /* Размер фона */
+    background-position: center; /* Позиция картинкипо центру */
+}
+
+.color-menu:hover, .nav-click:hover {
+    color: #89C8FD;
+}
+
+.order:hover, .regestr:hover, .click-explore:hover, .name:hover{
+    background: #89C8FD;
+    transition: .3s;
+}
+
+.main-content {
+    margin-bottom: 140px;
+}
+/* section */
+
+.title-content {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.text-content {
+    font-size: 18px; 
+    width: 53%;
+}
+
+.content {
+    margin-bottom: 60px;
+}
+
+.block-offers {
+    display: -webkit-inline-box;
+    margin-bottom: 60px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.offers-title {
+    font-size: 20px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.offers-text {
+    font-size: 14px;
+    color: #555;
+    width: 80%;
+}
+
+.block-green, .block-offers:hover{
+    background: #F3FBF8;
+    border-radius: 45px;
+}
+
+.human {
+    position: absolute;
+    right: 17em;
+}
+
+.offers-main {
+    margin-left: 45px;
+}
+
+/* Explore */
+
+.title-explore {
+    font-size: 70px;
+    font-weight: bold;
+    width: 110%;
+}
+
+.text-explore {
+    font-size: 18px;
+    color: #555;
+}
+
+.explore-main {
+    display: flex;
+}
+
+.group {
+    /* width: 30em; */
+    margin-right: 118px;
+    position: relative;
+    top: 10em;
+}
+
+.content-explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 6em;
+}
+
+.explore {
+    height: 58em;
+}
+
+.click-explore {
+    font-weight: bold;
+    color: #fff;
+    width: 9em;
+    padding: 20px;
+    border-radius: 42px;
+    background: #09A66D;
+    cursor: pointer;
+}
+
+/* Customers */
+
+.title-cust {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.text-cust {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.name {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 6em;
+    padding: 20px;
+    border-radius: 42px;
+    background: rgb(9, 166, 109);
+    cursor: pointer;
+}
+
+.ourcustomers {
+    margin-bottom: 20em;
+    margin-top: 15em;
+}
+
+.lemon {
+    height: 27em;
+    margin-left: 5em;
+}
+
+.customers {
+    align-items: flex-end;
+    display: flex;
+}
+
+.customers2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+
+.footer-title {
+    width: 30em;
+}
+.footer-blya {
+    display: flex;
+    padding-top: 5em;
+}
+.footer-text {
+    font-size: 18px;
+    margin-top: 25px;
+
+    color: #555;
+}
+
+.nav-click2 {
+    color: #222;
+    font-size: 24px;
+    margin-bottom: 40px;
+    /* font-weight: bold; */
+}
+
+.broah {
+    /* margin-right: 10em; */
+    margin-left: 6em;
+}
+
+.nav-click {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.footer {
+    height: 20em;
+}
+
+.email {
+    display: flex;
+}
+
+.contacts {
+    margin-left: 5px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contacts-phone {
+    margin-left: 5px;
+    color: #89C8FD;
+}
